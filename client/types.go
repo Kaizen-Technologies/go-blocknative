@@ -70,13 +70,13 @@ type EthTxPayload struct {
 			Value                string    `json:"value"`
 			Gas                  int       `json:"gas"`
 			GasPrice             string    `json:"gasPrice"`
-			GasPriceGwei         float64     `json:"gasPriceGwei"`
+			GasPriceGwei         float64   `json:"gasPriceGwei"`
 			Nonce                int       `json:"nonce"`
 			BlockHash            string    `json:"blockHash"`
 			BlockNumber          int       `json:"blockNumber"`
 			TransactionIndex     int       `json:"transactionIndex"`
 			Input                string    `json:"input"`
-			GasUsed              string    `json:"gasUsed"`
+			GasUsed              float64    `json:"gasUsed"`
 			Asset                string    `json:"asset"`
 			WatchedAddress       string    `json:"watchedAddress"`
 			Direction            string    `json:"direction"`
